@@ -35,7 +35,7 @@ p {
    color: #FFFFFF;
    margin: 15px 0 20px 0;
    line-height: 31.2px;
-   font-weight: 300;
+   /* font-weight: 400; */
 } 
 
 strong {
@@ -88,6 +88,10 @@ header {
    padding: 20px;
 }
 
+.hero h2 {
+   font-weight: 900;
+}
+
 .info input {
    width: 443px;
    margin: auto;
@@ -132,18 +136,22 @@ header {
    padding: 10px;
 }
 
-.left h1 {
+.holder .left h1 {
    color: #fff;
    display: flex;
+   font-weight: 700;
+   font-size: 64px;
    /* align-items: center; */
    /* justify-content: center; */
 }
 
-.left p {
+.holder .left p {
    width: 525px;
-   color: #FCFCFC;
-   font-size: 24px;
+   color: #d3d3d3;
+   font-size: 23px;
+   font-weight: 500;
 }
+
 
 .right {
    padding: 30px;
@@ -212,6 +220,39 @@ header {
    background: #472c8f;
    cursor: pointer;
    border-radius: 100px;
+}
+
+.spin {
+   margin-top: 10%;
+   color: #FFFFFF;
+}
+
+/* Footer */
+.footer {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   margin-top: 20px;
+}
+
+.footer h4 {
+   color: #FFFFFFCC;
+   font-weight: 400;
+}
+
+.fa {
+   color: #FFFFFF;
+   margin: 8px;
+}
+
+.footer div {
+   display: flex;
+   /* margin-right: 50px; */
+   padding: 12px;
+}
+
+ /* div .fa { */
+   margin: 15px;
 }
 
 
