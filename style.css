@@ -294,8 +294,12 @@ header {
       align-items: center;
    }  
 
+   .footer .baze {
+      display: flex;
+   }
+
    .footer .loyal {
-      /* display: none; */
+      display: none;
    }
 }
 
@@ -369,9 +373,15 @@ header {
       width: 325px;
    }
 
+   .footer .baze {
+      display: flex;
+   }
+
    .footer .loyal {
       display: none;
    }
+
+   
 }
 
 
