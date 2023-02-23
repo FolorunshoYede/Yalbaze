@@ -251,6 +251,10 @@ header {
    padding: 12px;
 }
 
+.footer .baze {
+   display: none;
+}
+
 
 /* Start Media Query */
 @media (max-width:799px) {
@@ -289,6 +293,10 @@ header {
       flex-direction: column;
       align-items: center;
    }  
+
+   .footer .loyal {
+      /* display: none; */
+   }
 }
 
 @media (max-width:477px) {
@@ -359,6 +367,10 @@ header {
    }
    .right .btn {
       width: 325px;
+   }
+
+   .footer .loyal {
+      display: none;
    }
 }
 
