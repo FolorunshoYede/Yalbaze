@@ -238,6 +238,7 @@ header {
 .footer h4 {
    color: #FFFFFFCC;
    font-weight: 400;
+   align-items: center;
 }
 
 .fa {
@@ -247,12 +248,118 @@ header {
 
 .footer div {
    display: flex;
-   /* margin-right: 50px; */
    padding: 12px;
 }
 
- /* div .fa { */
-   margin: 15px;
+
+/* Start Media Query */
+@media (max-width:799px) {
+   .header {
+      display: flex;
+      justify-content: space-evenly;
+      
+   }
+
+   .hero {
+      padding-top: 15%;
+   }
+
+   .hero h2 {
+      font-size: 42px;
+   }
+   
+   .hero p {
+      font-size: 20px;
+   }
+
+   .holder {
+      /* display: flex; */
+      flex-direction: column;
+   }
+
+   .holder .left {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-bottom: 10%;
+   }
+
+   .footer {
+      flex-direction: column;
+      align-items: center;
+   }  
+}
+
+@media (max-width:477px) {
+   .header {
+      padding-top: 2% 6%;
+      display: flex;
+      flex-direction: row;
+      /* justify-content: space-between; */
+      /* align-items: center; */
+   }
+
+   .logo {
+      font-size: 20px
+   }
+   .logo h1 {
+      font-size: 20px;
+   }
+   .logo img {
+      width: 15.33px;
+   }
+
+   .request {
+      padding: 12px 20px;
+   }
+
+   .info input {
+      width: 325px;
+   }
+
+   .hero h2 {
+      font-size: 43px;
+   }
+
+   .hero p {
+      font-size: 15px;
+   }
+
+   .left {
+      /* margin-left: 20px; */
+      margin: auto;
+   }
+
+   .holder .left p {
+      font-size: 15px;
+      width: 325px;
+   }
+   .holder .left h1 {
+      font-size: 35px;
+   }
+
+   .consult {
+      font-size: 20px;
+   }
+
+   .right {
+      width: 370px;
+   }
+
+   .holder .right input {
+      width: 325px;
+   }
+
+   .right select {
+      width: 325px;
+   }
+   .right .text-area {
+      width: 325px;
+   }
+   .right .btn {
+      width: 325px;
+   }
 }
 
 
